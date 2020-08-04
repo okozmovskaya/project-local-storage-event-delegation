@@ -1,19 +1,12 @@
 'use strict';
-console.log('--- loading handler: _');
+/* Get Elements (with querySelector and getItem)*/
 
-const _ = (event) => {
 
-};
 
-/* handlers define user interactions
 
-  they read user input
-    from events or from the DOM
+/* Write the function*/ 
 
-  they process user data using program logic functions
 
-  they communicate results to the user
 
-  they log any important information for developers
 
-*/
+/* write your event listeners in event-listeners.js*/

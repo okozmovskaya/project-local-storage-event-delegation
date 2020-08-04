@@ -1,19 +1,14 @@
 'use strict';
-console.log('--- loading handler: _');
+/* Add shadow to elements in html and css styles. For example, for header or menu-box*/
 
-const _ = (event) => {
+/* Get Elements (with querySelector)*/
 
-};
 
-/* handlers define user interactions
 
-  they read user input
-    from events or from the DOM
 
-  they process user data using program logic functions
+/* Write the function*/ 
 
-  they communicate results to the user
 
-  they log any important information for developers
 
-*/
+
+/* write your event listeners in event-listeners.js*/
