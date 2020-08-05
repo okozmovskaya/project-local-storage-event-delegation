@@ -26,19 +26,24 @@ For the aim to alive the page it's added css-effects: shadow move mouse and spac
 
 **As a site visitor...**
 
-> assigned to `____`  
-> reviewers `____` , `____` and `____`
+> assigned to `oguz`  
+> reviewers `olga` , `yauh` and `sayed`
 
 ## Repo
 
-This user story was developed on a branch called `______`
+This user story was developed on a branch called `add-item`
 
 ## JS
 
+- Got element with `querySelector` method
+- Created an array to store user input
+- Created a function to get user input and store in our array with `push()` method
+- Used `LocalStorage`, `.setItem()` and `.getItem()` property to prevent the list disappear when the page is refreshed
+- Created another function for converting our array to a string with `map()` method and change the HTML content with `.innerHTML` property
+ 
 ## HTML
 
-## CSS
-
+- I moved the `script` tags into the `body` tag
 _____
 
 ## 2. Function to save items
