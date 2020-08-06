@@ -64,22 +64,31 @@ This user story was developed on a branch called `______`
 ## CSS
 
 _____
+
 ## 3. Function to check/ uncheck items
 
-**As a site visitor...**
+**As a site visitor I want to be able to check or uncheck items from menu...**
 
-> assigned to `____`  
-> reviewers `____` , `____` and `____`
+> assigned to `Sayed`  
+> reviewers `Oguz` and `Olga`
 
 ## Repo
 
-This user story was developed on a branch called `______`
+This user story was developed on a branch called `Done-item`
 
 ## JS
 
+- created the function called `checkedDone()`
+- Added an `input` element in `add-item.js`
+- Added event listener
+
 ## HTML
 
+- Nothing
+
 ## CSS
+
+- Nothing
 
 _____
 
