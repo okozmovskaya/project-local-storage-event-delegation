@@ -40,30 +40,33 @@ This user story was developed on a branch called `add-item`
 - Created a function to get user input and store in our array with `push()` method
 - Used `LocalStorage`, `.setItem()` and `.getItem()` property to prevent the list disappear when the page is refreshed
 - Created another function for converting our array to a string with `map()` method and change the HTML content with `.innerHTML` property
- 
+
 ## HTML
 
 - I moved the `script` tags into the `body` tag
-_____
+
+---
 
 ## 2. Function to save items
 
-**As a site visitor...**
+**As a site visitor I want to see my list saved**
 
-> assigned to `____`  
-> reviewers `____` , `____` and `____`
+> assigned to `Yauheniya`  
+> reviewers `Oguz` , `Olga` and `Pavel`
 
 ## Repo
 
-This user story was developed on a branch called `______`
+This user story was developed on a branch called `save`
 
 ## JS
 
+- Oguz created function for converting our array to a string with `map()` method and change the HTML content with `.innerHTML` property, with `join` method to finalise.
+
 ## HTML
 
-## CSS
+- Added input tag for visual checkbox option with JS ternary condition.
 
-_____
+---
 
 ## 3. Function to check/ uncheck items
 
@@ -88,10 +91,8 @@ This user story was developed on a branch called `Done-item`
 
 ## CSS
 
-- Nothing
 
-_____
-
+---
 
 ## 4. Update CSS variables: spacing-blur-base-color
 
@@ -110,7 +111,7 @@ This user story was developed on a branch called `______`
 
 ## CSS
 
-_____
+---
 
 ## 5. Shadow move mouse effect on menu
 
@@ -129,7 +130,4 @@ This user story was developed on a branch called `______`
 
 ## CSS
 
-_____
-
-
-
+---
