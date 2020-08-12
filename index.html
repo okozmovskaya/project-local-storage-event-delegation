@@ -5,7 +5,7 @@
   <meta charset='utf8'>
   <title>Local storage</title>
   <link href="./style.css" rel="stylesheet" />
-
+  <script src="./scripts/handlers/spacing-blur-base-color.js"></script>
   
 </head>
 
@@ -30,6 +30,19 @@
       </form>
     </div>
   </div>
+
+  <!-- Buttons for CSS-effects: spacing-blur-colors -->
+
+  <div class="controls" id="controls">
+    <label for="spacing">Spacing:</label>
+    <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+    <label for="blur">Blur:</label>
+    <input id="blur" type="range" name="blur" min="0" max="10" value="1" data-sizing="px">
+    
+    <label for="base">Base Color</label>
+    <input id="base" type="color" name="base" value="#ffc600">
+  </div>
   
   <!-- Leave this here, it renders the review buttons
       write your code above this script tag  -->
@@ -44,7 +57,6 @@
   <script src="./scripts/handlers/done-item.js"></script>
   <script src="./scripts/handlers/save-item.js"></script>
   <script src="./scripts/handlers/shadow-move-mouse.js"></script>
-  <script src="./scripts/handlers/spacing-blur-base-color.js"></script>
   <script src="./scripts/listeners/event-listeners.js"></script>
   <script src="./scripts/script-variables.js"></script>
 

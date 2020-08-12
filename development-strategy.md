@@ -96,20 +96,34 @@ This user story was developed on a branch called `Done-item`
 
 ## 4. Update CSS variables: spacing-blur-base-color
 
-**As a site visitor...**
+**As a site visitor I want to change background of tapas-menu with color-picker and change the blur and spacing of logo-fish with special progress bar**
 
-> assigned to `____`  
-> reviewers `____` , `____` and `____`
+> assigned to `Olga`  
+> reviewers `Oguz` and `Pavel`
 
 ## Repo
 
-This user story was developed on a branch called `______`
+This user story was developed on a branch called `spacing-blur-color`
 
 ## JS
 
+- Use `window.onload` property
+- Got element with `getElementByID` and `querySelector` method
+- Got `forEach` method to call `function addEventListenerToElem` to each input-element in `div #controls`
+- Create `function addEventListenerToElem()` to assign event-listener `mousemove` for progress-bar (effect spacing and blur) and `change` for color-picker
+- Create `function handleUpdate()` for realize css-effects
+
 ## HTML
 
+- moved the script-tag for `spacing-blur-base-color.js` inside head-tag
+- add `div id-"controls"` for adding two progress-bars (spacing and blur) and color-picker
+
+
 ## CSS
+
+- Add stile for CSS-controls `input` like as tapas-menu
+- Assign `var` for color-picker, spacing and blur in `root-selector`
+- Change value for properties padding and filter of `svg-selector` and for background of `.wrapper-selector` on variables from `root`
 
 ---
 

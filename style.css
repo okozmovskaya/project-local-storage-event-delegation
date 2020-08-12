@@ -11,9 +11,9 @@ html {
 
   }
 
-  .menu {
+  /* .menu {
     margin-top: 60px;
-  }
+  } */
   
   *,
   *:before,
@@ -24,16 +24,19 @@ html {
   svg {
     fill: white;
     background: rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: var(--spacing);
     border-radius: 50%;
     width: 200px;
     margin-bottom: 50px;
+    margin-top: 80px;
+    filter: blur(var(--blur));
   }
   
   .wrapper {
+    margin-left: 47px;
     padding: 20px;
     max-width: 350px;
-    background: rgba(255, 255, 255, 0.95);
+    background: var(--base);
     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
@@ -85,6 +88,26 @@ html {
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .controls {
-    margin-bottom: 50px;
+   /* CSS-effects: spacing-blur-colors */
+
+   .controls {
+    max-width: 450px;
+    max-height: 80px;
+    margin-top: 50px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+    align-content: center;
+    word-spacing: 1px;
+  }
+
+  #base {
+      margin-top: 7px;
+      margin-bottom: 7px;
+  }
+
+  :root {
+      --base: rgba(255, 255, 255, 0.95);
+      --spacing: 10px;
+      --blur: 0px;
   }
