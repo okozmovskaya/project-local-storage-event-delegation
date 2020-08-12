@@ -2,8 +2,8 @@
 
 > `project-local-storage-event-delegation`
 
-A beginner project where we work collaboratively on Document Object Model. That is a small site with sort of tapas menu, where site-visitor can add things which save in menu after refresh the page. And also if site-visitor want he can check and uncheck menu items.  
-For the aim to alive the page it's added css-effects: shadow move mouse and spacing/blur/base color.
+A beginner project where we work collaboratively on Document Object Model. That is a small site with sort of tapas menu, where site-visitor can add things which save in menu after refresh the page. Also if site-visitor want he can check and uncheck menu items. And he hes special button for toggle all items by pressing and clear all items with the Clear All button. 
+For the aim to alive the page it's added css-effects: spacing/blur/base color.
 
 ## Wireframe
 
