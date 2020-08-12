@@ -8,20 +8,20 @@ html {
     text-align: center;
     align-items: flex-start;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
 
-  }
 
-  /* .menu {
+/* .menu {
     margin-top: 60px;
   } */
-  
-  *,
-  *:before,
-  *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-  }
-  
-  svg {
+}
+
+svg {
     fill: white;
     background: rgba(0, 0, 0, 0.1);
     padding: var(--spacing);
@@ -30,67 +30,68 @@ html {
     margin-bottom: 50px;
     margin-top: 80px;
     filter: blur(var(--blur));
-  }
-  
-  .wrapper {
+}
+
+.wrapper {
     margin-left: 47px;
     padding: 20px;
     max-width: 350px;
     background: var(--base);
     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
+}
+
+h2 {
     text-align: center;
     margin: 0;
     font-weight: 200;
-  }
-  
-  .plates {
+}
+
+.plates {
     margin: 0;
     padding: 0;
     text-align: left;
     list-style: none;
-  }
-  
-  .plates li {
+}
+
+.plates li {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 10px 0;
     font-weight: 100;
     display: flex;
-  }
-  
-  .plates label {
+}
+
+.plates label {
     flex: 1;
     cursor: pointer;
-  }
-  
-  .plates input {
+}
+
+.plates input {
     display: none;
-  }
-  
-  .plates input + label:before {
+}
+
+.plates input+label:before {
     content: "⬜️";
     margin-right: 10px;
-  }
-  
-  .plates input:checked + label:before {
+}
+
+.plates input:checked+label:before {
     content: "🌮";
-  }
-  
-  .add-items {
+}
+
+.add-items {
     margin-top: 20px;
-  }
-  
-  .add-items input {
+}
+
+.add-items input {
     padding: 10px;
     outline: 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
-  }
+}
 
-   /* CSS-effects: spacing-blur-colors */
 
-   .controls {
+/* CSS-effects: spacing-blur-colors */
+
+.controls {
     max-width: 450px;
     max-height: 80px;
     margin-top: 50px;
@@ -99,15 +100,29 @@ html {
     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
     align-content: center;
     word-spacing: 1px;
-  }
+}
 
-  #base {
-      margin-top: 7px;
-      margin-bottom: 7px;
-  }
+#base {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
 
-  :root {
-      --base: rgba(255, 255, 255, 0.95);
-      --spacing: 10px;
-      --blur: 0px;
-  }
+ :root {
+    --base: rgba(255, 255, 255, 0.95);
+    --spacing: 10px;
+    --blur: 0px;
+}
+
+
+/* additional buttons*/
+
+.wrapper button {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 5px;
+}
+
+.wrapper button:focus {
+    outline: 0;
+}
