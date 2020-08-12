@@ -127,21 +127,27 @@ This user story was developed on a branch called `spacing-blur-color`
 
 ---
 
-## 5. Shadow move mouse effect on menu
+## 5. `Clear All` and `Toggle all items` buttons
 
-**As a site visitor...**
+**As a site visitor I can toggle all items by pressing and appropriate button. Also I can clear all items with the Clear All button**
 
-> assigned to `____`  
-> reviewers `____` , `____` and `____`
+> assigned to `Pavel`  
+> reviewers `Olga` , `Oguz`
+> closes issue #6
+
 
 ## Repo
 
-This user story was developed on a branch called `______`
+This user story was developed on a branch called `additional-buttons`
 
 ## JS
+The `onload` event listener was added, which callback function creates two buttons on the page and assigns `onclick` event to every button. 
 
 ## HTML
+Script tag with the `items-handler-btns.js` was added. This script contains the callback and service functions for the `onload` event 
 
 ## CSS
+
+Some CSS was added to style the handler buttons.
 
 ---
